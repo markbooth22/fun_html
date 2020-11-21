@@ -1,0 +1,10 @@
+cd Desktop
+mkdir test - create test folder
+touch index.html touch style.css touch cammands.txt
+cp index.html index_2.html
+cd .. desktop
+touch destination
+cd test
+mv index_2.html ../destination
+rm style.css
+rm -rf destination
